@@ -1,0 +1,37 @@
+Skills Developed – Project 1: Portfolio & Investment Analysis
+
+During this project I developed a range of quantitative and digital skills
+applicable to professional investment analysis. I sourced daily adjusted
+closing price data for two large-cap technology stocks — Alphabet Inc.
+(GOOGL) and Meta Platforms Inc. (META) — from Yahoo Finance, and organised
+the raw data into a structured, professional Excel workbook. I calculated
+daily arithmetic returns using the formula (Pt − Pt−1) / Pt−1 and geometric
+returns using the natural logarithm method LN(Pt) − LN(Pt−1), understanding
+the distinction between the two approaches and when each is appropriate.
+
+I computed a full set of descriptive statistics including mean, median,
+standard deviation, variance, mean absolute deviation, interquartile range,
+and min/max values using Excel functions such as AVERAGE, STDEV.S, VAR.S,
+AVEDEV, and PERCENTILE.INC. I applied z-score analysis to identify potential
+outliers in the return distributions, flagging observations where |Z| > 3
+as per standard statistical practice.
+
+To assess the relationship between the two stocks, I calculated the sample
+covariance both manually — by computing the product of deviations from the
+mean for each observation and summing across the sample — and using Excel's
+COVARIANCE.S function, verifying that both methods produce identical results.
+I then derived the Pearson correlation coefficient using the CORREL function
+and interpreted the result in the context of portfolio diversification.
+
+I applied mean-variance analysis and calculated the Sharpe Ratio — both on
+a daily basis and annualised by multiplying by the square root of 252 trading
+days — using a risk-free rate based on the U.S. one-year Treasury bill yield.
+This allowed me to compare the risk-adjusted performance of the two stocks
+on a like-for-like basis.
+
+Finally, I structured the spreadsheet to professional standards with clear
+sheet organisation, consistent formatting, and embedded charts, and uploaded
+the project to a GitHub repository as part of my digital portfolio. These
+exercises strengthened my ability to apply statistical reasoning to real
+financial data and communicate analytical findings in a clear, structured,
+and professional format suitable for presentation to a client or employer.
